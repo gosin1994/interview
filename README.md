@@ -97,3 +97,4 @@
     上面这几个都是常见的反爬虫措施，当然还有更加高深的机制，
     比如最恶心的验证码（使用tesseract可以处理较为简单的验证码识别），用户行为分析，等等等等。
    [详情链接](https://blog.csdn.net/marksinoberg/article/details/78168223)
+***
