@@ -58,7 +58,7 @@
     ①mkdir:建立新目录；②cd：变换目录；③cp：复制档案或目录；④rm：删除档案或目录；⑤mv：移动档案或目录，或更名；
     ⑥ls：档案与目录的显示》》[更过命令链接](https://zhidao.baidu.com/question/1609431995174944987.html)
 #### 9.page、request、session、application，作用域从小到大排序
-    page<request<session<application  [详情链接](https://blog.csdn.net/weixin_40836179/article/details/79414854)
+   page<request<session<application  [详情链接](https://blog.csdn.net/weixin_40836179/article/details/79414854)
 #### 10.Linux查看8080端口被占用的命令？
     netstat –apn | grep 8080
 #### 11.编程实现：输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
@@ -76,14 +76,14 @@
 #### 1.自我介绍一下
 #### 2.上一个项目采用了哪些技术？
 #### 3.用了spring框架带来了哪些好处？
-    [Struts2优缺点](https://blog.csdn.net/chenleixing/article/details/44572637)
+   [Struts2优缺点](https://blog.csdn.net/chenleixing/article/details/44572637)
 #### 4.Hibernate和Mybatis比较
-    [链接](https://blog.csdn.net/w_q_q_/article/details/79032062)
+   [链接](https://blog.csdn.net/w_q_q_/article/details/79032062)
 #### 5.对当前流行的技术有没有关注过，如SpringBoot，SpringCloud
    
 #### 6.谈一谈你比较熟悉的开源框架
 #### 7.SpringBoot主要的特点是什么？当前技术已经很不错了，为什么还要用它？
-     [主要特点](https://blog.csdn.net/qq853632587/article/details/77226961)  [为什么要用它](https://blog.csdn.net/qq_20176495/article/details/77622093)
+   [主要特点](https://blog.csdn.net/qq853632587/article/details/77226961)  [为什么要用它](https://blog.csdn.net/qq_20176495/article/details/77622093)
 #### 8.了解爬虫吗？爬虫用来干什么？有什么反爬虫的机制？
     爬虫就是将手动完成的事情交给了代码去自动化的实现罢了。而反爬虫就是探查用户是真实用户还是代码的一种手段。
     而反反爬虫就是针对反爬虫机制的一种手段。
@@ -96,4 +96,4 @@
     - 访问频率：短时多次高并发的访问，基本上就是有问题的访问。 
     上面这几个都是常见的反爬虫措施，当然还有更加高深的机制，
     比如最恶心的验证码（使用tesseract可以处理较为简单的验证码识别），用户行为分析，等等等等。
-    [详情链接](https://blog.csdn.net/marksinoberg/article/details/78168223)
+   [详情链接](https://blog.csdn.net/marksinoberg/article/details/78168223)
