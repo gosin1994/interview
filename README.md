@@ -56,9 +56,9 @@
     alert(_cell[2].innerHTML); //获取第三列的值
 #### 8.写五个Linux命令，并写出他们的作用
     ①mkdir:建立新目录；②cd：变换目录；③cp：复制档案或目录；④rm：删除档案或目录；⑤mv：移动档案或目录，或更名；
-    ⑥ls：档案与目录的显示>>更过命令链接：https://zhidao.baidu.com/question/1609431995174944987.html
+    ⑥ls：档案与目录的显示》》[更过命令链接](https://zhidao.baidu.com/question/1609431995174944987.html)
 #### 9.page、request、session、application，作用域从小到大排序
-    page<request<session<application  详情链接：https://blog.csdn.net/weixin_40836179/article/details/79414854
+    page<request<session<application  [详情链接](https://blog.csdn.net/weixin_40836179/article/details/79414854)
 #### 10.Linux查看8080端口被占用的命令？
     netstat –apn | grep 8080
 #### 11.编程实现：输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
@@ -68,7 +68,7 @@
 9  10 11 12 
 13 14 15 16 
 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
-    答案链接：https://blog.csdn.net/u013686654/article/details/74456113
+    [答案链接](https://blog.csdn.net/u013686654/article/details/74456113)
 #### 12.简述tomcat、jvm或其他你熟悉的开源框架的原理
 --
 面试：
@@ -76,8 +76,24 @@
 #### 1.自我介绍一下
 #### 2.上一个项目采用了哪些技术？
 #### 3.用了spring框架带来了哪些好处？
+    [Struts2优缺点](https://blog.csdn.net/chenleixing/article/details/44572637)
 #### 4.Hibernate和Mybatis比较
+    [链接](https://blog.csdn.net/w_q_q_/article/details/79032062)
 #### 5.对当前流行的技术有没有关注过，如SpringBoot，SpringCloud
+   
 #### 6.谈一谈你比较熟悉的开源框架
 #### 7.SpringBoot主要的特点是什么？当前技术已经很不错了，为什么还要用它？
+     [主要特点](https://blog.csdn.net/qq853632587/article/details/77226961)  [为什么要用它](https://blog.csdn.net/qq_20176495/article/details/77622093)
 #### 8.了解爬虫吗？爬虫用来干什么？有什么反爬虫的机制？
+    爬虫就是将手动完成的事情交给了代码去自动化的实现罢了。而反爬虫就是探查用户是真实用户还是代码的一种手段。
+    而反反爬虫就是针对反爬虫机制的一种手段。
+    大体上来讲，反爬虫会从如下几个层面入手： 
+    - header 浏览器的请求头 
+    - User    -Agent 用户代理，表明访问源身份的一种方式 
+    - Referer 访问的目标链接是从哪个链接跳转过来的（做防盗链的话，就可以从它入手） 
+    - Host 同源地址判断，用它会很有用 
+    - IP 同一个IP短时多次访问，就很有可能是爬虫，反爬虫会对此做处理。 
+    - 访问频率：短时多次高并发的访问，基本上就是有问题的访问。 
+    上面这几个都是常见的反爬虫措施，当然还有更加高深的机制，
+    比如最恶心的验证码（使用tesseract可以处理较为简单的验证码识别），用户行为分析，等等等等。
+    [详情链接](https://blog.csdn.net/marksinoberg/article/details/78168223)
